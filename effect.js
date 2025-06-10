@@ -40,12 +40,12 @@ $('document').ready(function(){
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
-			$('#bannar_coming').fadeIn('slow');
+			$('#banner_coming').fadeIn('slow');
 		});
 	});
 
-	$('#bannar_coming').click(function(){
-		$('.bannar').addClass('bannar-come');
+	$('#banner_coming').click(function(){
+		$('.banner').addClass('banner-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
